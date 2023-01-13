@@ -29,7 +29,7 @@ score = 0
 for key, value in quiz.items():
     print(value['Question'])
     answer = input("Answer? ")
-# lower() perevents a case error
+# lower() prevents a case error
     if answer.lower() == value['answer'].lower():
         print("correct")
         score = score + 1
