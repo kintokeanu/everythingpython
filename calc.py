@@ -15,10 +15,10 @@ def div(a, b):
     print(str(a) + "+" + str(b) + "=" + str(answer))
 
 while True:
-    print("press A to add")
-    print("press B to subtract")
-    print("press C to multiply")
-    print("press D to divide")
+    print("press A to Add")
+    print("press B to Subtract")
+    print("press C to Multiply")
+    print("press D to Divide")
     print("press e to Quit")
 
     choice = input("select yout choice: ")
