@@ -1,3 +1,4 @@
+#create a dictionary to store the question and answer
 quiz = {
     "Question1": {
         "Question": " who coaches afc? ",
@@ -21,12 +22,14 @@ quiz = {
     },
 }
 
+#set default score
 score = 0
 
+#loop through the questions
 for key, value in quiz.items():
     print(value['Question'])
     answer = input("Answer? ")
-
+# lower() perevents a case error
     if answer.lower() == value['answer'].lower():
         print("correct")
         score = score + 1
