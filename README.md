@@ -7,4 +7,6 @@ all projects will be written in python language. it is beginner level to practic
 2. basic calculator
 3. bounce game
 4. replace strings
-5. Qrcode generator
+5. Qrcode generator 
+6. Quiz
+
