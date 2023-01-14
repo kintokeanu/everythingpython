@@ -42,7 +42,7 @@ while True:
     elif choice == "d" or choice == "D":
         print("Division")
         a = int(input("first number: "))
-        b = int(input("second number: "))
+        b = int(input("second number: ")) 
 
     elif choice == "e" or choice == "E":
         print("Program closed")
