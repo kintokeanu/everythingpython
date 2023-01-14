@@ -9,4 +9,6 @@ all projects will be written in python language. it is beginner level to practic
 4. replace strings
 5. Qrcode generator 
 6. Quiz
+7. dice game
+
 
