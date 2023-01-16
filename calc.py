@@ -19,7 +19,7 @@ while True:
     print("press B to Subtract")
     print("press C to Multiply")
     print("press D to Divide")
-    print("press e to Quit")
+    print("press Q to Quit")
 
     choice = input("select yout choice: ")
 
@@ -44,6 +44,6 @@ while True:
         a = int(input("first number: "))
         b = int(input("second number: "))
 
-    elif choice == "e" or choice == "E":
+    elif choice == "q" or choice == "Q":
         print("Program closed")
         quit()
