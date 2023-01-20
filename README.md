@@ -12,6 +12,7 @@ all projects will be written in python language. it is beginner level to practic
 7. Dice game
 8. binary search algorithm
 9. Site connectivity checker
+10. Guess the number and word
 
 
 
