@@ -13,6 +13,6 @@ all projects will be written in python language. it is beginner level to practic
 8. binary search algorithm
 9. Site connectivity checker
 10. Guess the number and word
-
+11. tic tac toe - this wasnt easy. took me a while to understand the logic.
 
 
