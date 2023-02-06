@@ -3,16 +3,12 @@ simple python projects
 this repo is for uploading python codes for mini projects ill be doing in 2023.
 all projects will be written in python language. it is beginner level to practice common python concepts in use.
 
-1. Email sender
-2. Basic calculator
-3. Bounce game
-4. Replace strings
-5. Qrcode generator 
-6. Quiz
-7. Dice game
-8. binary search algorithm
-9. Site connectivity checker
-10. Guess the number and word
-11. tic tac toe - this wasnt easy. took me a while to understand the logic.
+1. Basic calculator
+2. Replace strings
+3. Qrcode generator 
+4. Quiz
+5. Dice game
+6. Guess the number and word
+7. tic tac toe - coming up...
 
 
