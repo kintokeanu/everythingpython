@@ -12,4 +12,4 @@ while True:
     print("")
     input_url = input("enter site you want to check: ")
 
-    main(input_url)
+main(input_url)
