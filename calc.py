@@ -1,53 +1,39 @@
-def add(a, b):
-    answer = a + b
-    print(str(a) + "+" + str(b) + "=" + str(answer))
-
-def sub(a, b):
-    answer = a - b
-    print(str(a) + "-" + str(b) + "=" + str(answer))
-
-def mul(a, b):
-    answer = a * b
-    print(str(a) + "*" + str(b) + "=" + str(answer))
-
-def div(a, b):
-    answer = a / b
-    print(str(a) + "/" + str(b) + "=" + str(answer))
-
-while True:
-    print("press A to Add")
-    print("press B to Subtract")
-    print("press C to Multiply")
-    print("press D to Divide")
-    print("press Q to Quit")
-
-    choice = input("select yout choice: ")
-
-    if choice == "a" or choice == "A":
-        print("Addition")
-        a = int(input("first number: "))
-        b = int(input("second number: "))
-        add(a, b)
-
-    elif choice == "b" or choice == "B":
-        print("Subtraction")
-        a = int(input("first number: "))
-        b = int(input("second number: "))
-        sub(a, b)
-
-    elif choice == "c" or choice == "C":
-        print("Multiplication")
-        a = int(input("first number: "))
-        b = int(input("second number: "))
-        mul(a, b)
-
-    elif choice == "d" or choice == "D":
-        print("Division")
-        a = int(input("first number: "))
-        b = int(input("second number: "))
-        div(a, b)
-
+def calculate(a, b, operation):
+    if operation == "+":
+        answer = a + b
+    elif operation == "-":
+        answer = a - b
+    elif operation == "*":
+        answer = a * b
+    elif operation == "/":
+        answer = a / b
     else:
-        print("Invalid choice. Please try again.")
-        print("Program closed")
-        quit()
+        return "Invalid operation"
+    
+    return f"{a} {operation} {b} = {answer}"
+
+def run_calculator():
+    operations = {"A": "+", "B": "-", "C": "*", "D": "/"}
+    print("Press A to Add")
+    print("Press B to Subtract")
+    print("Press C to Multiply")
+    print("Press D to Divide")
+    print("Press Q to Quit")
+
+    while True:
+        choice = input("Select your choice: ").upper()
+        if choice == "Q":
+            print("Program closed")
+            break
+        
+        if choice not in operations:
+            print("Invalid choice. Please try again.")
+            continue
+        
+        operation = operations[choice]
+        a = int(input("First number: "))
+        b = int(input("Second number: "))
+        result = calculate(a, b, operation)
+        print(result)
+
+run_calculator()
